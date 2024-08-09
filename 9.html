@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, article, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+        }
+        header {
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            justify-content: space-between;
+        }
+        article {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Your go-to place for interesting content.</p>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main content section -->
+    <section>
+        <!-- Article section -->
+        <article>
+            <h2>Main Article</h2>
+            <p>This is the main content of the page. It can be a blog post, a news article, or any other standalone content that you want to highlight.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi erat, sollicitudin vel auctor id, consequat sit amet turpis. Vivamus euismod justo nec tellus fermentum, vel vulputate odio cursus.</p>
+        </article>
+
+        <!-- Aside section -->
+        <aside>
+            <h3>Related Content</h3>
+            <p>This is some additional content that is related to the main article. It could be links, ads, or other information that complements the article.</p>
+        </aside>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

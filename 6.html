@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        article h1 {
+            color: #333;
+        }
+
+        aside {
+            background-color: #ddd;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        aside h2 {
+            color: #4CAF50;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside ul li a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        aside ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <article>
+            <h1>Understanding Semantic HTML</h1>
+            <p>
+                Semantic HTML elements clearly describe their meaning in a way that both the browser 
+                and the developer can understand. These elements improve accessibility and SEO.
+            </p>
+            <p>
+                Using semantic elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, 
+                <code>&lt;main&gt;</code>, and <code>&lt;article&gt;</code> helps create a well-structured 
+                and more readable document.
+            </p>
+        </article>
+    </main>
+
+    <!-- Sidebar with Related Links -->
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="#semantic-html">What is Semantic HTML?</a></li>
+            <li><a href="#accessibility">Importance of Accessibility in Web Design</a></li>
+            <li><a href="#seo-benefits">SEO Benefits of Semantic HTML</a></li>
+        </ul>
+    </aside>
+
+    <!-- Footer with Contact Information -->
+    <footer>
+        <p>Contact us: <a href="mailto:info@example.com">info@example.com</a> | Phone: +123 456 7890</p>
+        <p>&copy; 2024 Semantic HTML Example. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
